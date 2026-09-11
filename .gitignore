@@ -1,0 +1,26 @@
+# Model weights & artifacts (jangan pernah dicommit)
+intent_transformer_artifacts/
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Credentials / secrets
+.env
+*.env
+
+# OS
+.DS_Store
+
+# Panduan lokal (bukan bagian dari proyek)
+git/
